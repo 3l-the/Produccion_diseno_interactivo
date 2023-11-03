@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mural.css">
     <title>Mural</title>
 </head>
 <body>
-    
+    <svg height="500" width="1000">
+        <rect id="cielo" x="0" y="0" width="1000" height="500" fill="midnightblue"/>
+        <circle id="luna 1" cx="800" cy="100" r="75" fill="cyan"/>
+        <circle id="luna 2" cx="600" cy="150" r="45" fill="cyan"/>
+        <path id="montañas" 
+        d="M 0 500 V 200 H 100 L 150 250 H 300 L 325 225 H 500 L 525 250 H 750 L 800 275 H 900 L 950 200 H 1000 V 500" 
+        fill="darkblue" stroke="skyblue" stroke-width="3" stroke-linecap="round"/>
+        <rect id="lago" x="0" y="300" width="1010" height="250" fill="blue" stroke="skyblue" stroke-width="3"/>
+        <path id="barco" 
+        d="M 100 350 H 90 V 340 H 400 V 350 H 390 Q 245 475, 100 350"
+        fill="black" stroke="black" stroke-width="3"/>
+        <rect x="130" y="375" width="230" height="150" fill="blue"/>
+    </svg>
 </body>
 </html>
